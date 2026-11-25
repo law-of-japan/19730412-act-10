@@ -1,0 +1,80 @@
+schemaVersion: loj-rebuild/v1alpha1
+record:
+  id: 19730412-act-10
+legacy:
+  repository: https://github.com/law-of-japan/19730412-act-10
+  frozenAt: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+sourceChecks:
+- source: src-goshomei-s48-10
+  glyphPreservation: preserved
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 1〜5画像
+  note: 全5画像を閲覧。1画像は公布文、2・3画像は本則と附則全5項、4・5画像は国務大臣の副署だけで本文はない。官報（昭和48年4月12日）はインターネットで閲覧できる画像がなく、御署名原本を使用（REB-05）。字体の全照合は未了。
+mappings:
+- commit: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+  revisions:
+  - 4w4q4aq4
+  verification:
+    state: unverified
+    reason: 旧mainの先端。全文・字体の完全対応照合は未了。
+- commit: 0a62468ab79b5ade68a34e29a105082173fb8d90
+  revisions:
+  - 4w4q4aq4
+  verification:
+    state: unverified
+    reason: 旧masterの先端。1a66a7fとの差は法令へのリンクの有無だけ。全文・字体の完全対応照合は未了。
+- commit: 4b76a1fbf6f2f5e5dbe788404e1c2dda1c16be6b
+  revisions: []
+  verification:
+    state: confirmed
+pending: []
+differences:
+- revision: 4w4q4aq4
+  class: structure
+  node: 19730412-act-10/main/paragraph/1
+  note: 旧本文は被改正法の名称に祝日法のリポジトリへのリンク（存在しない19480720-act-178）を付けている。原典にないリンクは版に入れない
+  legacy:
+    commit: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+    path: article.md
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 本則
+  verification:
+    state: confirmed
+- revision: 4w4q4aq4
+  class: structure
+  node: 19730412-act-10/main/paragraph/1/amendment/1
+  note: 旧本文は加える項を、改正内容として区別せずMarkdownの字下げのコードブロックで、項番号を「2.」として書いている
+  legacy:
+    commit: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+    path: article.md
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 本則
+  verification:
+    state: confirmed
+- revision: 4w4q4aq4
+  class: structure
+  node: 19730412-act-10/supplement/original
+  note: 旧本文は附則の見出しに法令番号「（昭和四八年四月一二日法律第十号）」を加え、各項の見出しを項番号の後に続けて書き、被改正法の名称に原典にないリンク（GitHub組織にないリポジトリを含む）を付けている。原典の見出しは「附　則」だけで、項の見出しは項の前の行にある
+  legacy:
+    commit: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+    path: supplementary_provision.md
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 附則第一項・第二項、3画像 附則第三〜五項
+  verification:
+    state: confirmed
+- revision: 4w4q4aq4
+  class: structure
+  node: 19730412-act-10/supplement/original/paragraph/4/amendment/1
+  note: 旧本文は加えるただし書を、改正内容として区別せずMarkdownの字下げのコードブロックで書いている
+  legacy:
+    commit: 1a66a7feb0b05a548455d5c4e489dd8376daed81
+    path: supplementary_provision.md
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 3画像 附則第四項
+  verification:
+    state: confirmed
