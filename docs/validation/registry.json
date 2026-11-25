@@ -1,0 +1,13 @@
+{
+  "diagnostics": [],
+  "results": [
+    {
+      "check": "registry",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "repository": "<registry>"
+  }
+}

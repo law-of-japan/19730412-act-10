@@ -1,0 +1,135 @@
+{
+  "revision": "4w4q4aq4",
+  "checks": [
+    {
+      "name": "package-L0",
+      "exitCode": 0,
+      "args": [
+        "4w4q4aq4",
+        "--level",
+        "L0"
+      ],
+      "results": [
+        {
+          "check": "L0",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "name": "package-L1",
+      "exitCode": 0,
+      "args": [
+        "4w4q4aq4",
+        "--level",
+        "L1"
+      ],
+      "results": [
+        {
+          "check": "L1",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "name": "history-L3",
+      "exitCode": 0,
+      "args": [
+        "19730412-act-10",
+        "--level",
+        "L3"
+      ],
+      "results": [
+        {
+          "category": "historyStructure",
+          "check": "L3",
+          "result": "pass"
+        },
+        {
+          "category": "evidence",
+          "check": "L3",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "name": "rebuild",
+      "exitCode": 0,
+      "args": [
+        "19730412-act-10",
+        "--check",
+        "rebuild"
+      ],
+      "results": [
+        {
+          "check": "rebuild",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "name": "registry",
+      "exitCode": 0,
+      "args": [
+        "registry-main",
+        "--check",
+        "registry",
+        "--registration-space",
+        "law-of-japan"
+      ],
+      "results": [
+        {
+          "check": "registry",
+          "result": "pass"
+        }
+      ]
+    },
+    {
+      "name": "relations-L4",
+      "exitCode": 0,
+      "args": [
+        "--registry",
+        "registry-main",
+        "--repository",
+        "19730412-act-10",
+        "--repository",
+        "holiday-main",
+        "--level",
+        "L4",
+        "--registration-space",
+        "law-of-japan"
+      ],
+      "results": [
+        {
+          "category": "relationResolution",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "relationConsistency",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "timeConsistency",
+          "check": "L4",
+          "result": "pass"
+        },
+        {
+          "category": "displayConsistency",
+          "check": "L4",
+          "result": "pass"
+        }
+      ]
+    }
+  ],
+  "sourceHashesMatch": true,
+  "legacyWordingMatches": true,
+  "legacyRefsUnchanged": true,
+  "heads": {
+    "loj-registry": "125961a38d3724be385fb567ba7eb438c412cce9",
+    "19480720-law-178": "c73c4d43447fa023f00bf9b4403ffb401b2a6712",
+    "loj-validator": "ba890a8fda8205dacad8869a15e623a283614349"
+  },
+  "binarySha256": "0cac7a1aca36ef64d791eaabfa6d1c98fb2d82c56bda1380fe41badb0b026a00"
+}
