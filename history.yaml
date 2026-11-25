@@ -1,0 +1,54 @@
+schemaVersion: loj-history/v1alpha1
+record:
+  id: 19730412-act-10
+  label: 昭和四十八年法律第十号
+sources:
+- id: src-goshomei-s48-10
+  kind: promulgation
+  title: 国民の祝日に関する法律の一部を改正する法律・御署名原本・昭和四十八年・第二巻・法律第一〇号（国立公文書館 御46243100）
+  uri: https://www.digital.archives.go.jp/file/689066
+  glyphPreservation: preserved
+  fixed: docs/sources/goshomei-1973-1.jpg SHA-256 58c47631b3bc0fd234dc7bac2d66b76f3dcf3f38d1141c46df842a611877c0b2; docs/sources/goshomei-1973-2.jpg SHA-256 9a8ef69494779af1be76ac181840698d12330196a5fd4b6db03feeb8756be6b2; docs/sources/goshomei-1973-3.jpg SHA-256 7ab44eb42cd4c11bb6d499b74030a4b4379197451b19e85aa3c261dff58e122f; docs/sources/goshomei-1973-4.jpg SHA-256 bc284f8248d4a4cd1b9c25b2b9cd05b694ac9376227622f13d3c410fa321ce14; docs/sources/goshomei-1973-5.jpg SHA-256 15090e9eee48c0d0f523684bb9a74c55c5e66b0f6dedcbc170cbe35f03796762
+relations: []
+revisions:
+- id: 4w4q4aq4
+  label: 制定
+  origin: enactment
+  effective:
+    state: derived
+    rule: 公布の日から
+    base:
+      state: date
+      value: '1973-04-12'
+      raw: 昭和四十八年四月十二日
+      precision: day
+      evidence:
+      - source: src-goshomei-s48-10
+        locator: 1画像 公布文の日付
+      verification:
+        state: unverified
+        reason: 官報の発行日と未照合（REB-05）
+    calc:
+      op: sameDay
+    value: '1973-04-12'
+    raw: この法律は、公布の日から施行する。
+    evidence:
+    - source: src-goshomei-s48-10
+      locator: 2画像 附則第一項
+    verification:
+      state: confirmed
+  applicability:
+    state: unsurveyed
+  text:
+    status: complete
+    sources:
+    - source: src-goshomei-s48-10
+      locator: 2画像 本則・附則第一項・第二項冒頭、3画像 附則第二項の続き〜第五項
+    glyphCheck: unverified
+    glyphNotes: versions/4w4q4aq4/glyphs.yaml
+    correctionsSurveyed:
+      state: unsurveyed
+      reason: 官報（昭和48年4月12日）を入手していない（REB-05）。官報正誤の調査は未実施。
+  status: active
+coverage:
+  state: unconfirmed
