@@ -1,0 +1,114 @@
+schemaVersion: loj-glyphs/v1alpha1
+revision: 4w4q4aq4
+notes:
+- id: g1
+  node: 19730412-act-10/main/paragraph/1/amendment/1/content/paragraph/2
+  field: display
+  offset: 0
+  recorded: ２
+  kind: ambiguous
+  candidates:
+  - '2'
+  - ２
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 本則 加える項
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g2
+  node: 19730412-act-10/supplement/original/paragraph/1
+  field: display
+  offset: 0
+  recorded: １
+  kind: ambiguous
+  candidates:
+  - '1'
+  - １
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 附則第一項の冒頭
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g3
+  node: 19730412-act-10/supplement/original/paragraph/2
+  field: display
+  offset: 0
+  recorded: ２
+  kind: ambiguous
+  candidates:
+  - '2'
+  - ２
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 附則第二項の冒頭
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g4
+  node: 19730412-act-10/supplement/original/paragraph/3
+  field: display
+  offset: 0
+  recorded: ３
+  kind: ambiguous
+  candidates:
+  - '3'
+  - ３
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 3画像 附則第三項の冒頭
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g5
+  node: 19730412-act-10/supplement/original/paragraph/4
+  field: display
+  offset: 0
+  recorded: ４
+  kind: ambiguous
+  candidates:
+  - '4'
+  - ４
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 3画像 附則第四項の冒頭
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g6
+  node: 19730412-act-10/supplement/original/paragraph/5
+  field: display
+  offset: 0
+  recorded: ５
+  kind: ambiguous
+  candidates:
+  - '5'
+  - ５
+  basis: provisional
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 3画像 附則第五項の冒頭
+  verification:
+    state: unverified
+    reason: 御署名原本の活字の幅を確定できない。官報と未照合（REB-05）。祝日法の版 jq7hf9nx の注記と同じく全角を仮置き。
+- id: g7
+  node: 19730412-act-10/main/paragraph/1/amendment/1/content/paragraph/2
+  offset: 6
+  recorded: 祝
+  kind: ambiguous
+  candidates:
+  - 祝
+  - 祝
+  basis: unifiedDefault
+  evidence:
+  - source: src-goshomei-s48-10
+    locator: 2画像 本則 加える項
+  verification:
+    state: unverified
+    reason: 御署名原本の画像を参照。官報と未照合（REB-05）。本文中のほかの「祝」も同じく統合漢字を置いた。
