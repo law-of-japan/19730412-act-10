@@ -1,0 +1,46 @@
+{
+  "diagnostics": [],
+  "references": [
+    {
+      "from": "loj:law-of-japan/19480720-law-178",
+      "result": "resolved",
+      "target": "loj:law-of-japan/19660625-act-86"
+    },
+    {
+      "from": "loj:law-of-japan/19480720-law-178",
+      "result": "resolved",
+      "target": "loj:law-of-japan/19480720-law-178"
+    },
+    {
+      "from": "loj:law-of-japan/19480720-law-178",
+      "result": "resolved",
+      "target": "loj:law-of-japan/19730412-act-10"
+    }
+  ],
+  "results": [
+    {
+      "category": "relationResolution",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "relationConsistency",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "timeConsistency",
+      "check": "L4",
+      "result": "pass"
+    },
+    {
+      "category": "displayConsistency",
+      "check": "L4",
+      "result": "pass"
+    }
+  ],
+  "target": {
+    "commit": "",
+    "repository": "<registry>"
+  }
+}
